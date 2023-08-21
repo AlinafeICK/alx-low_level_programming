@@ -1,24 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- *
- * main - Entry point of our program
- *
- * Description: a program that prints a string
- * that is > five, else if zero else <=six and zero
- *
- * Return: 0 (success)
-*/
 
+/**
+ * main - a program that prints a string
+ *
+ * Return: 0 (sucess)
+ *
+*/
 int main(void)
 {
-		int n;
+		int n, last;
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
-				int last = n % 10;
+				last = n % 10;
 
 				if (last > 5)
 				{
