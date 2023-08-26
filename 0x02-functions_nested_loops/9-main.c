@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * main - check the code
@@ -7,6 +7,6 @@ nclude "main.h"
  *     */
 int main(void)
 {
-	    jack_bauer();
+	    times_table();
 	        return (0);
 }
