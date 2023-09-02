@@ -4,7 +4,7 @@
  * @s: string var to show length.
  * Return: return the length of a string
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int store_variable;
 
