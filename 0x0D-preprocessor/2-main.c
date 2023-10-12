@@ -6,11 +6,12 @@ int _putchar(char c);
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
- * Return: On success 1, on error -1 is returned, and errno is set appropriately.
+ * Return: On success 1, on error -1 is returned
+ * and errno is set appropriately.
  */
 int _putchar(char c)
 {
-    return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
 
 
@@ -23,7 +24,7 @@ int _putchar(char c)
 
 int main(void)
 {
-	const char* filename = __FILE__;
+	const char *filename = __FILE__;
 	size_t len = 0;
 	size_t i;
 
@@ -37,5 +38,5 @@ int main(void)
 	_putchar(filename[i]);
 	}
 	_putchar('\n');
-	exit (0);
+	exit(0);
 }
