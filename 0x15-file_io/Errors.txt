@@ -33,3 +33,15 @@
 0-read_textfile.c:53: WARNING: please, no spaces at the start of a line
 total: 11 errors, 20 warnings, 54 lines checked
 read_textfile
+
+========== 1-create_file.c ==========
+1-create_file.c:19: ERROR: spaces preferred around that '-' (ctx:VxV)
+1-create_file.c:26: ERROR: spaces required around that '==' (ctx:WxO)
+1-create_file.c:26: ERROR: space required before that '-' (ctx:OxV)
+total: 3 errors, 0 warnings, 35 lines checked
+create_file
+
+========== 1-create_file.c ==========
+1-create_file.c:19: ERROR: spaces preferred around that '-' (ctx:VxV)
+total: 1 errors, 0 warnings, 35 lines checked
+create_file
