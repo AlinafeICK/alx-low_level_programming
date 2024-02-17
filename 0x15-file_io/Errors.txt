@@ -45,3 +45,9 @@ create_file
 1-create_file.c:19: ERROR: spaces preferred around that '-' (ctx:VxV)
 total: 1 errors, 0 warnings, 35 lines checked
 create_file
+
+========== 2-append_text_to_file.c ==========
+2-append_text_to_file.c:29: ERROR: space required before the open parenthesis '('
+2-append_text_to_file.c:34: ERROR: trailing whitespace
+total: 2 errors, 0 warnings, 34 lines checked
+append_text_to_file
