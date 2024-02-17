@@ -51,3 +51,19 @@ create_file
 2-append_text_to_file.c:34: ERROR: trailing whitespace
 total: 2 errors, 0 warnings, 34 lines checked
 append_text_to_file
+
+========== 3-cp.c ==========
+3-cp.c:52: WARNING: More than 40 lines in a function
+3-cp.c:53: WARNING: More than 40 lines in a function
+3-cp.c:54: WARNING: More than 40 lines in a function
+3-cp.c:55: WARNING: More than 40 lines in a function
+3-cp.c:56: WARNING: More than 40 lines in a function
+3-cp.c:57: WARNING: More than 40 lines in a function
+3-cp.c:58: WARNING: More than 40 lines in a function
+3-cp.c:59: WARNING: More than 40 lines in a function
+3-cp.c:60: WARNING: More than 40 lines in a function
+3-cp.c:61: WARNING: More than 40 lines in a function
+3-cp.c:62: WARNING: More than 40 lines in a function
+3-cp.c:63: WARNING: More than 40 lines in a function
+total: 0 errors, 12 warnings, 66 lines checked
+main
