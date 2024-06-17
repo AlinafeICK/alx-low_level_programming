@@ -30,15 +30,16 @@ Introduction to Make and Makefiles
     Syntax:
 
     makefile
-    Copy code
+    
     target: dependencies
         commands
     Example:
 
     makefile
-    Copy code
+    
     my_program: main.o utils.o
         gcc -o my_program main.o utils.o
+    
     Explicit and Implicit Rules
     Explicit Rules
     Definition: Explicit rules are specifically defined by the user to tell make how to build the targets.
